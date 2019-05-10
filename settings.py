@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY') or 'Fallback-Secret:Do-Not-Use'
 DEBUG = False
 
 # Add your domain name here
-ALLOWED_HOSTS = ['localhost', '.now.sh']
+ALLOWED_HOSTS = ['localhost', '.now.sh','mrvincere.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
