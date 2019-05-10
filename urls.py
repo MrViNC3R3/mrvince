@@ -5,7 +5,7 @@ The `urlpatterns` list routes URLs to views. For more information please see:
 """
 from django.urls import path
 from django.http import HttpResponse
-from views import index, about
+from views import index
 
 urlpatterns = [
     path('', index),
